@@ -1,7 +1,13 @@
 ### Main Game File
 
+import pygame
+import sys
+
+pygame.init()
 
 
-print ("wrote some code")
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 600
 
-print("did another thing")
+game_window = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
+pygame.display.set_caption("Tower Defence")
