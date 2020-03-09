@@ -2,6 +2,8 @@
 
 import pygame
 import sys
+import importlib
+importlib.import_module("Tower_Selection_Window.py")
 
 pygame.init()
 
@@ -21,8 +23,6 @@ clock = pygame.time.Clock()
 
 
 
-
-
 def main_game_loop():
 
     game_loop = True
@@ -37,6 +37,7 @@ def main_game_loop():
 
         
         game_window.blit(background_img,[0,0])
+        Tower_Selection()
         pygame.display.update()
         clock.tick(60)
 
