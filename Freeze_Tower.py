@@ -1,4 +1,7 @@
-### Tower #2 Class
+### Freeze Tower Class
+
+import pygame
+pygame.init()
 
 
 
