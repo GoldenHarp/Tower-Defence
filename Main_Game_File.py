@@ -3,7 +3,7 @@
 import pygame
 import sys
 import importlib
-importlib.import_module("Tower_Selection_Window.py")
+("Tower_Selection_Window.py")
 
 pygame.init()
 
