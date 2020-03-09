@@ -12,7 +12,7 @@ game_window = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
 pygame.display.set_caption("Tower Defence")
 
 background_img = pygame.image.load("C:\\Users\\darem\\Documents\\GitHub\\Tower-Defence\\Sprites\\background.bmp")
-bacground_img = pygame.transform.scale(background_img,(WINDOW_WIDTH,WINDOW_HEIGHT))
+background_img = pygame.transform.scale(background_img,(WINDOW_WIDTH,WINDOW_HEIGHT))
 
 BLACK = (0,0,0)
 WHITE = (255,255,255)
@@ -35,7 +35,7 @@ def main_game_loop():
 
                 game_loop = False
 
-        game_window.fill(BLACK)
+        
         game_window.blit(background_img,[0,0])
         pygame.display.update()
         clock.tick(60)
