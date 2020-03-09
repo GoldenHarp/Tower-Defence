@@ -4,11 +4,10 @@ import pygame
 import sys
 import Tower_Selection_Window as selection
 import Game_Window as window
+import Mouse_pos as mouse
 
 
 pygame.init()
-
-
 
 pygame.display.set_caption("Tower Defence")
 
@@ -36,7 +35,8 @@ def main_game_loop():
 
         
         window.game_window.blit(background_img,[0,0])
-        selection.Tower_Selection()
+        mouse.mouse_position()
+        selection.Tower_Selection.Tower_Draw()
         pygame.display.update()
         clock.tick(60)
 
