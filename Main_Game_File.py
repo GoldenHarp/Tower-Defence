@@ -36,7 +36,7 @@ def main_game_loop():
         
         window.game_window.blit(background_img,[0,0])
         selection.Tower_Selection.Tower_Draw()
-        mouse.mouse_position(selection.Tower_select_group)
+        print(mouse.mouse_pressed(selection.Tower_select_group))
         selection.Tower_select_group.draw(window.game_window)
         selection.Tower_select_group.update()
         pygame.display.update()
