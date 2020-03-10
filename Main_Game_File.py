@@ -11,7 +11,7 @@ pygame.init()
 
 pygame.display.set_caption("Tower Defence")
 
-background_img = pygame.image.load("C:\\Users\\darem\\Documents\\GitHub\\Tower-Defence\\Sprites\\background.bmp")
+background_img = pygame.image.load("Sprites\\background.bmp")
 background_img = pygame.transform.scale(background_img,(window.WINDOW_WIDTH,window.WINDOW_HEIGHT))
 
 BLACK = (0,0,0)
