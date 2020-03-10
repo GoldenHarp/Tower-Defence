@@ -12,6 +12,9 @@ mpress = pygame.mouse.get_pressed()
 
 
 def mouse_position():
-    if mpos[0]< 
+    print(mpos)
+    for i in selection.Tower_select_group:
+        if mpos[0] > i.rect.x and mpos [1]<i.rect.x +20:
+            print("true")
     
     
